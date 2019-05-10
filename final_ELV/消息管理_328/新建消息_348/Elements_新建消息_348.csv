@@ -1,0 +1,15 @@
+测试元素名,搜索方式(ById/ByLinkText/ByPartialLinkText/ByName/ByTagName/ByXPath/ByClassName/ByCssSelector),页面元素名
+一级目录名称,ById,tool-1038-toolEl
+二级目录名称,ByXPath,.//*[@id='treeview-1025']/table/tbody/tr[2]/td/div/a
+leftFrame,ByName,leftFrame
+rightFrame,ByName,mainFrame
+,,
+BOM节点版本组号输入框,ById,bomsysbol-inputEl
+标题输入框,ById,newsTitle-inputEl
+接收人输入框,ById,recipient-inputEl
+内容输入框,ById,newsContent-textareaEl
+内容输入frame,ById,newsContent-iframeEl
+,,
+返回按钮,ByXPath,.//*[@id='sendRequest']/preceding::div[2]
+保存信息按钮,ByXPath,.//*[@id='sendRequest']/preceding::div[1]
+保存并发送信息按钮,ByXPath,.//*[@id='sendRequest']

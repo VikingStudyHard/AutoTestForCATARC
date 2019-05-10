@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ELV系统自动化测试">
+${testList}
+<listeners>
+<listener class-name="cn.edu.tju.scs.seql.report.ExcelReportGenerator" />
+</listeners>
+
+</suite> <!-- Default suite -->

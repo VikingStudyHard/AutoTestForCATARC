@@ -1,0 +1,7 @@
+测试元素名,搜索方式(ById/ByLinkText/ByPartialLinkText/ByName/ByTagName/ByXPath/ByClassName/ByCssSelector),页面元素名
+一级目录名称,ById,treepanel-1026_header_hd-textEl
+二级目录名称,ByXPath,.//*[@id='treeview-1029']/table/tbody/tr[3]/td/div/a
+leftFrame,ByName,leftFrame
+rightFrame,ByName,mainFrame
+,,
+退出按钮,ByXPath,.//a[text()='退出']

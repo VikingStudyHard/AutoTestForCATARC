@@ -1,0 +1,26 @@
+package ${packageName};
+
+import cn.edu.tju.scs.seql.element.*;
+
+/**
+ * 对该package下的页面建模，枚举页面元素，供测试用例调用
+ */
+public enum ${className}  implements ElementEnum {
+	FanXiangyu(ByEnum.ById,"id")${enumList};
+
+	private ByEnum byWhat;
+	private String name;
+	private ${className}(ByEnum by, String name){
+		this.byWhat = by;
+		this.name = name;
+	}
+
+	public ByEnum getByWhat() {
+		return byWhat;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+}

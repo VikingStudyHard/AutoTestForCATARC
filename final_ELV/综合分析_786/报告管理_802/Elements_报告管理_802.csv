@@ -1,0 +1,5 @@
+测试元素名,搜索方式(ById/ByLinkText/ByPartialLinkText/ByName/ByTagName/ByXPath/ByClassName/ByCssSelector),页面元素名
+一级目录名称,ById,tool-1037-toolEl
+二级目录名称,ByXPath,.//*[@id='treeview-1021']/table/tbody/tr[5]/td/div/a
+leftFrame,ByName,leftFrame
+rightFrame,ByName,mainFrame

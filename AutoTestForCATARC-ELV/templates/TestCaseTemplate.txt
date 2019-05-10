@@ -1,0 +1,103 @@
+package ${packageName};
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.*;
+
+import org.openqa.selenium.*;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+import cn.edu.tju.scs.seql.ELV.common.*;
+import cn.edu.tju.scs.seql.element.*;
+
+import java.util.Vector;
+
+
+${classDescription}
+public class ${className} extends Selenium_Test_Base {
+	
+	public ${className}(){
+		super();
+	}
+	
+	public ${className}(WebDriver driver){
+		super(driver);
+	}
+	
+	@Test
+	public void testNg() throws Exception {
+		LoginAction.loginAction(driver,baseUrl);
+		WebElement leftFrame=getElement(${ElementEnumClass}.leftFrame);
+		WebElement mainFrame=getElement(${ElementEnumClass}.rightFrame);
+	    driver.switchTo().frame(leftFrame);
+	    operationInLeftFrame();
+	    driver.switchTo().defaultContent();
+		
+		driver.switchTo().frame(mainFrame);
+	    detailedOperation();
+	}
+	
+	/**
+	 * LeftFrame中的操作，主要是选择不同的功能
+	 */
+	public void operationInLeftFrame(){
+		Assert.fail("该用例尚未实现，请检查");
+	/*
+		WebDriverConfiguration.operationInterval();
+		getElement(${ElementEnumClass}.一级目录名称).click();
+		WebDriverConfiguration.operationInterval();
+		getElement(${ElementEnumClass}.二级目录名称).click();
+		WebDriverConfiguration.operationInterval();
+	*/
+	}
+	
+	/**
+	 * 具体的测试操作，在右边的mainFrame中进行
+	 */
+	public void detailedOperation(){
+	    List<WebElement> listLink = driver.findElements(By.tagName("*"));
+        	Vector<String> testDesc = Han.stepDesToTokens(getDescription());
+        	for(int i=0;i<testDesc.size();i++){
+        		Vector<String> tuples = Han.tokens(testDesc.get(i));
+        		//查找匹配元素
+        		for (int j = 0; j< listLink.size(); j++) {
+        			if(listLink.get(i).getText().indexOf(tuples.get(1))>=0){
+        				try {
+        					listLink.get(i).click();
+        					WebDriverConfiguration.operationInterval();
+       					}catch (Exception e){
+       						System.out.println("异常:"+e);
+       					}
+        			}
+        		}
+        	}
+		/*
+		assertEquals(driver.findElement(By.xpath("//td")).getText(), "企业名称:");
+	    assertEquals(driver.findElement(By.xpath("//td[3]")).getText(), "企业ID:");
+	    assertEquals(driver.findElement(By.xpath("//td[5]")).getText(), "计划员:");
+	    assertEquals(driver.findElement(By.xpath("//td[7]")).getText(), "区域");
+	    assertEquals(driver.findElement(By.xpath("//td[9]")).getText(), "新增信息来源");
+	    assertEquals(driver.findElement(By.xpath("html/body/form/table[2]/tbody/tr/td/div/input")).getText(), "");
+		*/
+
+	
+	}
+
+	
+	public String getDescription(){
+		return ${descriptionStr};
+	}
+
+    /**
+     * 查找对应枚举类里的元素
+     */
+    public Vector<${ElementEnumClass}> getMatchs(String target){
+        ${ElementEnumClass} elements[] = ${ElementEnumClass}.values();
+        Vector<${ElementEnumClass}> matchs = new Vector<>();
+        for (int i = 0; i < elements.length; i++){
+            if(elements[i].name().indexOf(target)>=0)
+                matchs.add(elements[i]);
+        }
+        return matchs;
+    }
+}

@@ -1,0 +1,5 @@
+测试元素名,搜索方式(ById/ByLinkText/ByPartialLinkText/ByName/ByTagName/ByXPath/ByClassName/ByCssSelector),页面元素名
+一级目录名称,ById,menu7_a
+二级目录名称,ByCssSelector,#m7_1 > a
+leftFrame,ByName,leftFrame
+rightFrame,ByName,FrameRight

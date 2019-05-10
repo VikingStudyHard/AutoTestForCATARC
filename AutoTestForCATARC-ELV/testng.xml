@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="0" name="Default test">
+    <classes>
+      <class name="使用TestNg"/>
+    </classes>
+  </test> <!-- Default test -->
+  <!-- test verbose="0" name="junit test" junit="true">
+    <classes>
+      <class name="cn.edu.tju.scs.seql.ELV_LIMS.Junit4Test"/>
+    </classes>
+  </test --> 
+  
+  <listeners>
+    <listener class-name="com.netease.qa.TestResultListener" />
+    <listener class-name="com.netease.qa.RetryListener" />
+    <listener class-name="com.netease.qa.PowerEmailableReporter" />
+  </listeners>
+  
+</suite> <!-- Default suite -->
+

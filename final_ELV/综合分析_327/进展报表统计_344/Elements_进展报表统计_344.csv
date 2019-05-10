@@ -1,0 +1,65 @@
+测试元素名,搜索方式(ById/ByLinkText/ByPartialLinkText/ByName/ByTagName/ByXPath/ByClassName/ByCssSelector),页面元素名
+一级目录名称,ById,tool-1037-toolEl
+二级目录名称,ByXPath,.//a[@target = 'mainFrame'][text()='进展报表统计']
+leftFrame,ByName,leftFrame
+rightFrame,ByName,mainFrame
+表格第一行,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]
+查看车型按钮,ById,button-1037-btnEl
+品牌中文名称,ById,bcname-inputEl
+品牌英文名称,ById,bename-inputEl
+车型中文名称,ById,mcname-inputEl
+车型英文名称,ById,mename-inputEl
+车型编号,ById,modNo-inputEl
+整车质量,ById,wgt-inputEl
+生产年份,ById,ptYear-inputEl
+长,ById,len-inputEl
+宽,ById,wdh-inputEl
+高,ById,hght-inputEl
+表格第一行品牌中文名称,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[3]/div
+表格第一行品牌英文名称,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[4]/div
+表格第一行车型中文名称,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[5]/div
+表格第一行车型英文名称,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[6]/div
+关闭按钮,ByXPath,.//*[@id='modelInfoWin']/div[3]/div/div/div/em/button
+关闭叉叉,ByXPath,.//*[@id='modelInfoWin']/div[1]/div/div/div/div[2]/img
+查看车型两率按钮,ById,button-1038-btnEl
+未选择记录提示,ById,messagebox-1001-displayfield-inputEl
+提示窗口确定按钮,ById,button-1005-btnEl
+两率_车型中文,ByXPath,"//div[contains(@id, 'window') and contains(@class, 'x-layer')]/div[2]/div/div[1]/table/tbody/tr[1]//input"
+两率_车型英文,ByXPath,"//div[contains(@id, 'window') and contains(@class, 'x-layer')]/div[2]/div/div[1]/table/tbody/tr[2]//input"
+填报率,ByXPath,"//div[contains(@id, 'window') and contains(@class, 'x-layer')]/div[2]/div/div[1]/table/tbody/tr[3]//input"
+审核率,ByXPath,"//div[contains(@id, 'window') and contains(@class, 'x-layer')]/div[2]/div/div[1]/table/tbody/tr[4]//input"
+两率_关闭按钮,ByXPath,"//div[contains(@id, 'window') and contains(@class, 'x-layer')]/div[2]//button"
+两率_最大化,ByXPath,html/body/div[10]/div[1]/div/div/div/div[2]/img
+两率_窗口,ById,window-1054-body
+查看车型所属部门的两率清单,ById,button-1039-btnEl
+总部门左侧加号,ByXPath,html/body/div[1]/div[2]/div/div[3]/div/table/tbody/tr[2]/td/div/img[1]
+总部门下第一项,ByXPath,html/body/div[1]/div[2]/div/div[3]/div/table/tbody/tr[3]/td/div
+总部门,ByXPath,html/body/div[1]/div[2]/div/div[3]/div/table/tbody/tr[2]/td/div
+详细信息所有行,ByXPath,html/body/div[1]/div[3]/div/table/tbody/tr
+下载按钮,ById,button-1021-btnEl
+返回按钮,ById,button-1022-btnEl
+iframe,ByName,contentIframe
+刷新,ById,button-1016-btnEl
+打开树按钮,ById,button-1014-btnEl
+关闭树按钮,ById,button-1015-btnEl
+树图所有项,ByXPath,html/body/div[1]/div[2]/div/div[3]/div/table/tbody/tr
+表格所有项,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr
+表格第一行BOM,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[8]/div
+车型名称查询,ById,mname-inputEl
+品牌名称查询,ById,bname-inputEl
+创建时间起始,ById,fromTime-inputEl
+创建时间截止,ById,toTime-inputEl
+检索按钮,ById,button-1011-btnEl
+表格第一行时间,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[7]/div
+时间错误提示,ById,messagebox-1001-displayfield-inputEl
+时间错误提示确定键,ById,button-1005-btnEl
+下一页,ById,button-1030-btnEl
+最后一页,ById,button-1031-btnEl
+上一页,ById,button-1024-btnEl
+第一页,ById,button-1023-btnEl
+右下角数量提示,ById,tbtext-1035
+页码输入框,ById,numberfield-1027-inputEl
+表格第一行序号,ByXPath,html/body/div[2]/div[3]/div/table/tbody/tr[2]/td[2]/div
+总页数,ById,tbtext-1028
+Loading框,ById,loadmask-1042-msgEl
+错误提示框,ById,messagebox-1001

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="综合分析">
+	<test verbose="0" name="测试用">
+    <classes>
+      <class name="cn.edu.tju.scs.seql.ELV_LIMS.使用TestNg"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test verbose="0" name="有害物质分析">
+    <classes>
+		<class name="cn.edu.tju.scs.seql.auto_ELV.综合分析_327.有害物质分析_342.验证有害物质分析功能是否可实现_有害物质分析表格_按树节点_4054"/>
+		<class name="cn.edu.tju.scs.seql.auto_ELV.综合分析_327.有害物质分析_342.验证有害物质分析功能是否可实现_BOM树形操作_4047"/>
+    </classes>
+  </test> <!-- Default test -->
+  <!-- test verbose="0" name="junit test" junit="true">
+    <classes>
+      <class name="cn.edu.tju.scs.seql.ELV_LIMS.Junit4Test"/>
+    </classes>
+  </test --> 
+  
+  <listeners>
+    <listener class-name="cn.edu.tju.scs.seql.report.RetryListener" />
+    <listener class-name="cn.edu.tju.scs.seql.report.ExcelReportGenerator" />
+  </listeners>
+  
+</suite> <!-- Default suite -->
+

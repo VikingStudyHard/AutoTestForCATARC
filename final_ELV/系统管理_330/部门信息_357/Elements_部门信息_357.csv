@@ -1,0 +1,23 @@
+测试元素名,搜索方式(ById/ByLinkText/ByPartialLinkText/ByName/ByTagName/ByXPath/ByClassName/ByCssSelector),页面元素名
+一级目录名称,ById,treepanel-1030_header_hd-textEl
+二级目录名称,ByXPath,html/body/div/div[2]/div/div/div[6]/div[3]/div/table/tbody/tr[2]/td/div/a
+leftFrame,ByName,leftFrame
+rightFrame,ByName,mainFrame
+body,ByXPath,html/body
+刷新键,ById,button-1017-btnEl
+功能菜单所有行,ByXPath,html/body/div[1]/div[2]/div/div[3]/div/table/tbody/tr
+打开树键,ById,button-1015-btnWrap
+关闭树键,ById,button-1016-btnWrap
+详细信息标题,ByXPath,html/body/form/div/table[1]/tbody/tr/td/div
+contentFrame,ById,contentIframe
+右键菜单添加键,ByXPath,"//div[contains(@id, 'treeContextMenu') and contains(@class, 'x-layer') and not(contains(@style, 'visibility: hidden'))]/div/div[2]/div[2]/div[1]"
+右键菜单删除键,ByXPath,"//div[contains(@id, 'treeContextMenu') and contains(@class, 'x-layer') and not(contains(@style, 'visibility: hidden'))]/div/div[2]/div[2]/div[2]"
+右键菜单编辑键,ByXPath,"//div[contains(@id, 'treeContextMenu') and contains(@class, 'x-layer') and not(contains(@style, 'visibility: hidden'))]/div/div[2]/div[2]/div[3]"
+添加页面名称,ById,textfield-1010-inputEl
+添加页面ID,ById,textfield-1015-inputEl
+添加页面保存键,ById,button-1023-btnEl
+添加页面重置键,ById,button-1024-btnEl
+添加页面取消键,ById,button-1025-btnEl
+添加成功确定键,ByXPath,//div[@id='messagebox-1001']/div[last()]/div/div/div[1]//button
+删除确定键,ByXPath,//div[@id='messagebox-1001']/div[last()]/div/div/div[2]//button
+删除取消键,ByXPath,//div[@id='messagebox-1001']/div[last()]/div/div/div[3]//button

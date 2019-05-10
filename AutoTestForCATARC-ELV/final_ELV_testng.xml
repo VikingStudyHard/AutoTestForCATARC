@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ELV系统自动化测试">
+<test verbose="0" name="禁限用物质豁免分析(#347)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_6__13631"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_5__13629"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_4__13628"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_3__13627"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_2__13626"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_13593"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析下方工具栏是否可实现_含异常操作_4260"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析中确定功能是否可实现_基本信息操作_其他_4186"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析中确定功能是否可实现_基本信息操作_取消标注_4185"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析中确定功能是否可实现_基本信息操作_有害标注_4183"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析中确定功能是否可实现_树形图查找操作_4177"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析中确定功能是否可实现_树形图操作_4141"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析查询功能是否可实现_品牌名称检索_4030"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析查询功能是否可实现_车型名称检索_4029"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析查询功能是否可实现_创建时间检索_4028"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析刷新功能是否可实现_4027"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.禁限用物质豁免分析_347.验证禁限用物质豁免分析中确定功能是否可实现_4026"/>
+</classes>
+</test>
+<test verbose="0" name="日志信息(#360)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息按照检索条件删除功能是否可以实现_异常处理_5685"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息下方功能栏按钮是否可以实现_2196"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息按照检索条件删除功能是否可以实现_不处理_1052"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息按照检索条件删除功能是否可以实现_正常处理_1051"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息按照检索条件删除功能是否可以实现_异常处理_1049"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息删除功能是否可以实现_不操作_1048"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息删除功能是否可以实现_正常处理_1047"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息检索功能是否可以实现_异常操作_1046"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息检索功能是否可以实现_多条件正常操作_1045"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.日志信息_360.验证日志信息检索功能是否可以实现_正常操作_1044"/>
+</classes>
+</test>
+<test verbose="0" name="个人信息(#359)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.查看个人信息的角色信息_7773"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人密码修改功能是否可以实现_异常操作_5668"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人密码修改功能是否可以实现_异常操作_2194"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人信息修改功能是否可以实现_不操作_1043"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人信息修改功能是否可以实现_异常操作_1041"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人密码修改功能是否可以实现_不操作_1039"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人密码修改功能是否可以实现_总流程_1038"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.个人信息_359.验证用户个人信息查看功能是否可以实现_1035"/>
+</classes>
+</test>
+<test verbose="0" name="车型信息(#336)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_异常检索_7124"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息下方功能栏按钮是否可以实现_含异常操作_3640"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_删除车型_异常操作_3639"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_删除车型_正常操作_3638"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_修改车型_异常操作_3637"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_修改车型_正常操作_3636"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_新增车型_异常操作_3635"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_新增车型_正常操作_3634"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_查看车型_异常操作_3633"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_综合检索_3632"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_查看车型_正常操作_3631"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_创建时间检索_3630"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_通用名称检索_3629"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型信息_336.验证车型信息查询功能是否可实现_车型商标检索_3628"/>
+</classes>
+</test>
+<test verbose="0" name="禁限用物质豁免分析(#806)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_786.禁限用物质豁免分析_806.验证禁限用物质豁免分析_导出有害物质清单内容是否正确_1__13594"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_786.禁限用物质豁免分析_806.验证禁限用物质豁免分析_导出有害物质清单能否实现_7545"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_786.禁限用物质豁免分析_806.验证禁用物质豁免分析模块_7544"/>
+</classes>
+</test>
+<test verbose="0" name="高危清单(#356)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_导出信息是否正确_2__13634"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_导出信息是否正确_1__13633"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单下方工具栏是否可实现_含异常操作_4457"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_基本信息操作_高危清单导出_4456"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_树形图右键操作_4455"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_基本信息操作_填报_4454"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单中管理车型的高危部件清单功能是否可实现_树形图操作_4452"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_树形图查找操作_4451"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_基本信息操作_取消填报_4450"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单管理车型的高危部件清单功能是否可实现_正常操作_4449"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单查看车型功能是否可实现_异常操作_4448"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单查看车型功能是否可实现_正常操作_4447"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单查询功能是否可实现_综合检索_4446"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单查询功能是否可实现_时间检索_4441"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单查询功能是否可实现_车型名称检索_4440"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.高危清单_356.验证高危清单查询功能是否可实现_品牌名称检索_4439"/>
+</classes>
+</test>
+<test verbose="0" name="创建请求(#350)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中添加CAMDS账号按钮_删除按钮_6483"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中添加CAMDS账号按钮_异常测试_6482"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商查找_邮政编码栏异常测试_2741"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商查找_城市栏异常测试_2740"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商查找_部门名称栏异常测试_2739"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商查找_企业_部门_ID栏异常测试_2738"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商查找_企业名称栏异常测试_2737"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求界面保存按钮功能_1055"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中星号项测试_1054"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中各项日期选择测试_1053"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商选择及表格测试_1040"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中材料数据供应商查找按钮_1036"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.创建请求_350.消息管理_创建请求模块中添加CAMDS账号按钮_1034"/>
+</classes>
+</test>
+<test verbose="0" name="有害物质分析(#342)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析下方工具栏是否可实现_含异常操作_4256"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析功能是否可实现_有害物质分析表格_其他功能_4057"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析功能是否可实现_有害物质分析表格_按特定物质_4055"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析功能是否可实现_有害物质分析表格_按树节点_4054"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析功能是否可实现_BOM树形操作_4047"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析中确定功能是否可实现_4025"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析刷新功能是否可实现_4024"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析查询功能是否可实现_创建时间检索_4023"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析查询功能是否可实现_车型名称检索_4022"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.有害物质分析_342.验证有害物质分析查询功能是否可实现_品牌名称检索_4021"/>
+</classes>
+</test>
+<test verbose="0" name="整车RRR计算(#346)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_13__13660"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_12__13659"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_11__13658"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_10__13657"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_9__13656"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_8__13654"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_7__13653"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_6__13652"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_5__13651"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_4__13649"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_3__13648"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_2__13646"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR报表内容是否正确_1__13645"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR公式计算结果是否正确_可回收利用率_12050"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.测试车型回收利用率报告中的RRR公式计算结果是否正确_可再利用率_11330"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR值计算__正常操作_7541"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算下方工具栏是否可实现_含异常操作_4259"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算的确定功能是否可以实现_回收利用率报告_查询类型_4221"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算的确定功能是否可以实现_回收利用率报告_表单来源_4220"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算的确定功能是否可以实现_回收利用率报告_名称检索_4219"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算的确定功能是否可以实现_回收利用率报告_部件号检索_4218"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算的确定功能是否可以实现_回收利用率报告_ID检索_4217"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算的确定功能是否可以实现_回收利用率报告_查询时间检索_4216"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_基本信息操作_回收利用率报告_4207"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_基本信息操作_其他_4206"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_基本信息操作_清空标注_4205"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_基本信息操作_自动标注_4201"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_基本信息操作_取消标注_4200"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_基本信息操作_回收利用率信息标注_4199"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_树形图查找操作_4198"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_树形图操作_4194"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算查询功能是否可实现_品牌名称检索_4036"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算查询功能是否可实现_车型名称检索_4035"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算查询功能是否可实现_创建时间检索_4034"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算刷新功能是否可实现_4033"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.整车RRR计算_346.验证整车RRR计算中确定功能是否可实现_4032"/>
+</classes>
+</test>
+<test verbose="0" name="角色信息(#362)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息删除角色功能是否可以实现___正常操作_7627"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息下方功能栏按钮是否可以实现_2225"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息新增功能是否可以实现_无新增处理_2220"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息查看功能是否可以实现_异常处理_2219"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息删除功能是否可以实现_1085"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息修改功能是否可以实现_正常流_1084"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息修改功能是否可以实现_异常流_1083"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息新增功能是否可以实现_正常流_1081"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息新增功能是否可以实现_异常流_1080"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.角色信息_362.验证角色信息查看功能是否可以实现_正常流_1079"/>
+</classes>
+</test>
+<test verbose="0" name="变更零部件(#340)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件下方功能栏按钮是否可以实现_含异常操作_4003"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_导出操作_4002"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_删除操作_4001"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_修改变更_正常操作_4000"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_修改变更_异常操作_3999"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_新增变更_正常操作_3998"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_新增变更_异常操作_3997"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息确定功能是否可实现_内部查询_创建时间_3996"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息确定功能是否可实现_内部查询_变更后供货编号_3995"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息确定功能是否可实现_内部查询_变更前供货编号_3994"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息确定功能是否可实现_内部查询_变更后MDS名称_3993"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息确定功能是否可实现_内部查询_变更前MDS名称_3992"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息确定功能是否可实现_3991"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息刷新功能是否可实现_3990"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_创建时间检索_3989"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_车型名称检索_3988"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.变更零部件_340.验证变更零部件信息查询功能是否可实现_品牌名称检索_3987"/>
+</classes>
+</test>
+<test verbose="0" name="车型BOM管理(#796)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_785.车型BOM管理_796.验证匹配结果为mds不存在的零部件发送信息_____创建请求__camds账号能否正常添加和删除_6502"/>
+</classes>
+</test>
+<test verbose="0" name="信息查询(#349)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询_编辑消息的接收人的查找框按钮测试_2736"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询_编辑消息的接收人查找框的查询功能测试_2735"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询_编辑消息的接收人查找框的查询功能异常测试_2734"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询_消息编辑的新建_编辑内容栏脚本语言测试_2733"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询_消息编辑的标题栏脚本语言测试_2732"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询模块中编辑功能的测试_2__2731"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询模块中编辑功能的测试_1__2730"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询模块中编辑_发送按钮的测试_1014"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询模块消息查看_删除功能_1011"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询模块消息查询功能_1009"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.信息查询_349.消息管理_消息查询模块表格分页按钮及显示测试_1007"/>
+</classes>
+</test>
+<test verbose="0" name="进展报表统计(#344)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计下方工具栏是否可实现_含异常操作_4257"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型所属部门的两率清单功能是否可实现_内部操作_部门详细信息_4085"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型所属部门的两率清单功能是否可实现_内部操作_树形图_4079"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型所属部门的两率清单功能是否可实现_正常操作_4078"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型两率功能是否可实现_异常操作_4077"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型两率功能是否可实现_正常操作_4076"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型功能是否可实现_异常操作_4075"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查询功能是否可实现_品牌名称检索_4041"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查询功能是否可实现_车型名称检索_4040"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查询功能是否可实现_创建时间检索_4039"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.进展报表统计_344.验证进展报表统计查看车型功能是否可实现_正常操作_4038"/>
+</classes>
+</test>
+<test verbose="0" name="查询请求(#351)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中添加CAMDS账号按钮_异常测试_6485"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中添加CAMDS账号按钮_删除按钮_6484"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中部门查找_企业名称栏异常测试_2746"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询求模块中部门查找_部门名称栏异常测试_2745"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中部门查找_企业_部门_ID栏异常测试_2744"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中部门查找_城市栏异常测试_2743"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中部门查找_邮政编码栏异常测试_2742"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中查询功能测试_2454"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中添加CAMDS账号按钮_2453"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中部门查找按钮_2452"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.查询请求_351.消息管理_查询请求模块中部门选择及表格测试_2451"/>
+</classes>
+</test>
+<test verbose="0" name="扩展零部件(#341)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息导出报表功能是否可实现_报表内容是否正确_13643"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_品牌名称检索_4020"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_车型名称检索_4019"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_创建时间检索_4018"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息刷新功能是否可实现_4017"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息确定功能是否可实现_4016"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息确定功能是否可实现_内部查询_零部件名称_4015"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息确定功能是否可实现_内部查询_备注_4014"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息确定功能是否可实现_内部查询_供货编号_4013"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_添加_异常操作_4010"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_添加_正常操作_4009"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_删除操作_4006"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证扩展零部件信息查询功能是否可实现_导出操作_4005"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.扩展零部件_341.验证变更零部件下方功能栏按钮是否可以实现_含异常操作_4004"/>
+</classes>
+</test>
+<test verbose="0" name="材料数据创建(#335)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件创建添加部件功能1_13078"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件创建添加部件功能_13077"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的材料创建是否可以实现_查询操作_异常操作_3528"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的材料创建是否可以实现_查询操作_3526"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的材料创建是否可以实现_树操作_3519"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的材料创建是否可以实现_表单内操作_3516"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的材料创建是否可以实现_3514"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的半成品创建是否可以实现_树操作_3507"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的半成品创建是否可以实现_查询操作_异常操作_3503"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的半成品创建是否可以实现_查询操作_3501"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的半成品创建是否可以实现_表单内操作_3499"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的半成品创建是否可以实现_正常操作_3494"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件__包括整车_创建是否可以实现_树操作_3488"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件__包括整车_创建是否可以实现_查询操作_异常操作_3482"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件__包括整车_创建是否可以实现_查询操作_3481"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件__包括整车_创建是否可以实现_表单内操作_3480"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据创建_335.验证材料数据创建中的零部件__包括整车_创建是否可以实现_正常操作_3474"/>
+</classes>
+</test>
+<test verbose="0" name="BOM分发结果(#338)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证bom分发结果下方功能栏按钮是否可以实现_含异常操作_3673"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证BOM分发结果查询功能是否可实现_修改异常操作_3672"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证BOM分发结果查询功能是否可实现_修改操作_3671"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证BOM分发结果查询功能是否可实现_综合检索_3670"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证BOM分发结果信息查询功能是否可实现_零部件bom名称检索_3669"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证车型BOM分发结果信息查询功能是否可实现_责任人名称检索_3668"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.BOM分发结果_338.验证BOM分发结果查询功能是否可实现_车型名称检索_3667"/>
+</classes>
+</test>
+<test verbose="0" name="整车RRR计算(#805)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_786.整车RRR计算_805.整车RRR计算_自动标注_________异常操作_7542"/>
+</classes>
+</test>
+<test verbose="0" name="行业动态(#355)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态下方工具栏是否可实现_含异常操作_4475"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态发布功能是否可实现_4474"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态删除功能是否可实现_4473"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态编辑功能是否可实现_编辑文本2_4471"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态编辑功能是否可实现_编辑文本_4470"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态编辑功能是否可实现_4469"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态新增功能是否可实现_编辑文本2_4468"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态新增功能是否可实现_编辑文本_4467"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态新增功能是否可实现_4466"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态查看功能是否可实现_4465"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态查询功能是否可实现_标题检索_4464"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态查询功能是否可实现_时间检索_4463"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.行业动态_355.验证行业动态查询功能是否可实现_综合检索_4462"/>
+</classes>
+</test>
+<test verbose="0" name="零部件RRR计算(#345)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算下方工具栏是否可实现_含异常操作_4258"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的筛选标注功能是否可以实现_4255"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的自动标注功能是否可以实现_4252"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的自动标注功能是否可以实现_4251"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查看标注记录功能是否可以实现_打开查询窗口_查询时间检索_4250"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查看标注记录功能是否可以实现_打开查询窗口_ID检索_4249"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查看标注记录功能是否可以实现_打开查询窗口_部件号检索_4248"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查看标注记录功能是否可以实现_打开查询窗口_产品名称检索_4247"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查看标注记录功能是否可以实现_打开查询窗口_查询类型_4246"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查看标注记录功能是否可实现_4245"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_树形图操作_4244"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_树形图查找操作_4243"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_基本信息操作_回收利用率信息标注_4242"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_基本信息操作_取消标注_4241"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_基本信息操作_自动标注_4240"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_基本信息操作_清空标注_4239"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_基本信息操作_其他_4238"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可实现_基本信息操作_回收利用率报告_4237"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可以实现_回收利用率报告_查询时间检索_4236"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可以实现_回收利用率报告_ID检索_4235"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可以实现_回收利用率报告_部件号检索_4234"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可以实现_回收利用率报告_名称检索_4233"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可以实现_回收利用率报告_表单来源_4232"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中标注功能是否可以实现_回收利用率报告_查询类型_4231"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算标注功能是否可实现_4230"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查看功能是否可实现_表单内操作2_4229"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查看功能是否可实现_表单内操作_4228"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查看功能是否可实现_4227"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查询功能是否可实现_品牌名称检索_4226"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查询功能是否可实现_车型名称检索_4225"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算查询功能是否可实现_创建时间检索_4224"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算刷新功能是否可实现_4223"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算中确定功能是否可实现_4222"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_标注状态_4214"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_查询时间检索_4213"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_ID检索_4212"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_部件号检索_4211"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_名称检索_4210"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_表单来源_4209"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.零部件RRR计算_345.验证零部件RRR计算的查找功能是否可以实现_查询类型_4208"/>
+</classes>
+</test>
+<test verbose="0" name="车型管理(#326)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.验证变更零部件信息导出备案表功能是否可实现且报表内容是否正确_13572"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.检测不同身份进入ELV环境回归系统能否进入车型管理模块_6668"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.验证审核员是否有权限进入车型管理模块_6481"/>
+</classes>
+</test>
+<test verbose="0" name="零部件RRR计算(#804)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_786.零部件RRR计算_804.验证零部件RRR值计算___批量校验_7543"/>
+</classes>
+</test>
+<test verbose="0" name="公告信息(#353)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息下方工具栏是否可实现_含异常操作_4526"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息发布功能是否可实现_4525"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息删除功能是否可实现_4524"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息编辑功能是否可实现_编辑文本2_4523"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息编辑功能是否可实现_编辑文本_4522"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息编辑功能是否可实现_4521"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息新增功能是否可实现_编辑文本2_4520"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息新增功能是否可实现_4518"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息查看功能是否可实现_4517"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息查询功能是否可实现_标题检索_4516"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息查询功能是否可实现_时间检索_4515"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.公告信息_353.验证公告信息查询功能是否可实现_综合检索_4514"/>
+</classes>
+</test>
+<test verbose="0" name="最新法规(#354)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规新增功能是否可实现_编辑文本4_6836"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规新增功能是否可实现_编辑文本3_6834"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规编辑功能是否可实现_编辑文本4_6827"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规编辑功能是否可实现_编辑文本3_6824"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规查询功能是否可实现_综合检索_4488"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规查询功能是否可实现_时间检索_4487"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规查询功能是否可实现_标题检索_4486"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规查看功能是否可实现_4485"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规新增功能是否可实现_4484"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规新增功能是否可实现_编辑文本_4483"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规新增功能是否可实现_编辑文本2_4482"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规编辑功能是否可实现_4481"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规编辑功能是否可实现_编辑文本_4480"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规编辑功能是否可实现_编辑文本2_4479"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规删除功能是否可实现_4478"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规发布功能是否可实现_4477"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.最新法规_354.验证最新法规下方工具栏是否可实现_含异常操作_4476"/>
+</classes>
+</test>
+<test verbose="0" name="基础数据同步(#331)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证基础数据同步下方功能栏按钮是否可以实现_含异常操作_3325"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证禁用物质应用选项及代码数据同步是否正常_含异常操作_3324"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证应用选项明细数据同步是否正常_异常操作_3323"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证标准材料数据同步是否正常_含异常操作_3322"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证材料引用标准同步是否正常_含异常操作_3321"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证聚合物材料标识同步是否正常_含异常操作_3320"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证材料分类数据同步是否正常_含异常操作_3319"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证基本物质数据同步是否正常_含异常操作_3318"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.基础数据同步_331.验证CAMDS企业数据同步是否正常_异常操作_2187"/>
+</classes>
+</test>
+<test verbose="0" name="报告管理(#343)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理的报告下载按钮能否实现___异常操作_7576"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理下方工具栏是否可实现_含异常操作_4070"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_综合检索_4069"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_零部件供车编号检索_4067"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_零部件名称检索_4064"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_零部件车型名称检索_4060"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_整车报告类型检索_4059"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_整车品牌名称检索_4046"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理查询功能是否可实现_整车车型名称检索_4045"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_327.报告管理_343.验证报告管理中报告下载功能是否可实现_4042"/>
+</classes>
+</test>
+<test verbose="0" name="材料数据管理(#333)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证材料数据管理右上侧滑动功能是否正常_6718"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证材料数据管理下方功能栏按钮是否可以实现_含异常操作_3399"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证查询MDS材料数据信息的导入按钮是否正常工作_3398"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证查询MDS材料数据信息的删除按钮是否正常工作_表单内操作_3396"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证查询MDS材料数据信息的删除按钮是否正常工作_3394"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证查询MDS材料数据信息的修改按钮是否正常工作_3391"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证查询MDS材料数据信息的查看按钮是否正常工作_表单内操作_3390"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证查询MDS材料数据信息的查看按钮是否正常工作_3389"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证输入具体参数_是否能够查询MDS材料数据信息_错误操作_3388"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证输入具体参数_是否能够查询MDS材料数据信息_异常操作_3385"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.材料数据管理_333.验证输入具体参数_是否能够查询MDS材料数据信息_正常操作_3382"/>
+</classes>
+</test>
+<test verbose="0" name="供应商信息(#361)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息下方功能栏按钮是否可以实现_2213"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息删除功能是否可以实现_不操作处理_1078"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息删除功能是否可以实现_正常操作_1077"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息修改功能是否可以实现_正常操作_1075"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息修改功能是否可以实现_异常操作_1073"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息新增功能是否可以实现_异常操作_1069"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息新增功能是否可以实现_不操作处理_1068"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息新增功能是否可以实现_总流程_1067"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息查看功能是否可以实现_1066"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息检索功能是否可以实现_异常处理_1064"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.供应商信息_361.验证供应商信息检索功能是否可以实现_正常处理_1063"/>
+</classes>
+</test>
+<test verbose="0" name="报告管理(#802)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.综合分析_786.报告管理_802.验证报告管理的报告下载功能能否实现____正常操作_7581"/>
+</classes>
+</test>
+<test verbose="0" name="用户信息(#358)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_异常操作_5633"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息下方功能栏按钮是否可以实现_2228"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_刷新翻页_2193"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_多条件正常操作_2192"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_不操作_2191"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_正常操作_2190"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_多条件异常操作_2189"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息检索功能是否可以实现_多条件操作_2188"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息翻页查看功能是否可以实现_1033"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户重置用户密码功能是否可以实现_1032"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息删除功能是否可以实现_1030"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息修改功能是否可以实现_1029"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_总流程_1027"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息新增功能是否可以实现_异常操作_1026"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息查看功能是否可以实现_1019"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息检索功能是否可以实现_异常操作_1017"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息检索功能是否可以实现_单条件操作3_1016"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息检索功能是否可以实现_单条件操作2_1013"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息检索功能是否可以实现_单条件操作_1012"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.用户信息_358.验证用户信息检索功能是否可以实现_总流程_1010"/>
+</classes>
+</test>
+<test verbose="0" name="标准信息(#352)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息右上侧滑动功能是否正常_6756"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息根据法规类型检索功能___异常测试_4707"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证法规信息_标准信息__修改_功能__法规名称___法规类型_异常测试_4706"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息修改功能是否可实现_名称及类型_4550"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息修改功能是否可实现_基本物质信息_添加查询_4549"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息修改功能是否可实现_基本物质信息_添加_4548"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息修改功能是否可实现_基本物质信息_修改_4547"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息修改功能是否可实现_基本物质信息_删除_4546"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息新增功能是否可实现_基本物质信息_删除_4545"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息新增功能是否可实现_基本物质信息_修改_4544"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息新增功能是否可实现_基本物质信息_添加_4543"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息查询功能是否可实现_创建人检索_4542"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息查询功能是否可实现_法规类型检索_4541"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息下方工具栏是否可实现_含异常操作_4540"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息删除功能是否可实现_4538"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息修改功能是否可实现_4535"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息新增功能是否可实现_基本物质信息_添加查询_4534"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息新增功能是否可实现_名称及类型_4533"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息新增功能是否可实现_4532"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息查看功能是否可实现_4531"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息查询功能是否可实现_法规名称检索_4530"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息查询功能是否可实现_时间检索_4529"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.法规管理_329.标准信息_352.验证标准信息查询功能是否可实现_综合检索_4528"/>
+</classes>
+</test>
+<test verbose="0" name="部门信息(#357)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门的查看功能是否可以实现_1008"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门的编辑功能是否可以实现_1006"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门的删除功能是否可以实现_1004"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门的添加功能是否可以实现_总流程_1001"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门信息中功能菜单的刷新按键是否正常工作_999"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门信息中功能菜单的关闭树按键是否正常工作_997"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门信息中功能菜单的打开树按键是否正常工作_996"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.系统管理_330.部门信息_357.验证部门信息是否正常显示_995"/>
+</classes>
+</test>
+<test verbose="0" name="MDS数据同步(#332)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据同步右上侧滑动功能是否正常_6714"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据同步下方功能栏按钮是否可以实现_含异常操作_3354"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据下载按钮是否可以实现_3351"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据重置按钮是否可以实现_3348"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据同步下载记录页面下方功能栏按钮是否可以实现_含异常操作_3347"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据下载记录能否查看_关闭按钮_3346"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据下载记录能否查看_拒绝按钮_3345"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据下载记录能否查看_查看详情_3344"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据下载记录能否查看_异常操作_打开查询窗口按钮_3343"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证MDS数据下载记录能否查看_正常操作_打开查询窗口按钮_3335"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证输入CAMDS账户_切换账户信息是否能够同步查询MDS_异常操作_3334"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证输入CAMDS账户_切换账户信息是否能够同步查询MDS_正常操作_3333"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证输入具体参数_使用CAMDS账户是否同步查询MDS_异常操作_3332"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.MDS数据同步_332.验证输入具体参数_使用CAMDS账户是否同步查询MDS_正常操作_3330"/>
+</classes>
+</test>
+<test verbose="0" name="新建消息(#348)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_标题栏脚本语言测试_2729"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_新建_编辑内容栏脚本语言测试_2728"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_接收人查找框的查询功能异常测试_2727"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框__时间栏异常测试_2725"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框_ID栏异常测试_2723"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框_供货编号栏异常测试_2720"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框_名称栏异常测试_2719"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_返回_保存_保存并发送按钮异常测试_2202"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_返回_保存_保存并发送按钮测试_2199"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_新建_编辑内容栏按钮测试_2197"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_接收人查找框的确认功能测试_2195"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_接收人查找框的查询功能测试_1028"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_接收人的查找框按钮测试_1005"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框的选择功能测试_1003"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框的查询功能测试_1000"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.消息管理_328.新建消息_348.消息管理_新建消息_BOM节点版本组号查找框的按钮测试_998"/>
+</classes>
+</test>
+<test verbose="0" name="车型BOM信息(#337)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_查看BOM__匹配结果操作_6658"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_查看BOM_基础信息操作_6653"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_基础信息操作_6499"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息下方功能栏按钮是否可以实现_含异常操作_3674"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_删除BOM_3666"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_修改BOM_BOM树形打开关闭操作_3665"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_修改BOM_BOM树形挂接操作_3664"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.证车型BOM信息功能是否可实现_修改BOM_基础信息操作_3663"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形新增操作_3662"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_修改BOM_基础信息操作2_3661"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_修改BOM_BOM树形修改操作_3659"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_修改BOM_BOM树形删除操作_3658"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_修改BOM_3657"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_基础信息操作2_3656"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_基础信息操作_3655"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形查找操作_3654"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形打开关闭操作_3653"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形修改操作_3652"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形挂接操作_3651"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形删除操作_3650"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_BOM树形新增操作_3649"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息功能是否可实现_新增BOM_3648"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_综合检索_3647"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_查看BOM_BOM树形操作_3645"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_查看BOM_正常操作_3644"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_创建时间检索_3643"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_通用名称检索_3642"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.车型BOM信息_337.验证车型BOM信息查询功能是否可实现_车型商标检索_3641"/>
+</classes>
+</test>
+<test verbose="0" name="审核信息(#334)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证审核信息下方功能栏按钮是否可以实现_含异常操作_3470"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证查询MDS审核信息的查看审核按钮是否正常工作_3469"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证查询MDS审核信息的审核按钮是否正常工作_表单内操作_3466"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证查询MDS审核信息的审核按钮是否正常工作_3460"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证查询MDS审核信息的查看按钮是否正常工作_表单内操作_3456"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证查询MDS审核信息的查看按钮是否正常工作_3451"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证输入具体参数_是否能够查询MDS审核信息_错误操作_3448"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证输入具体参数_是否能够查询MDS审核信息_异常操作_3446"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.数据管理_325.审核信息_334.验证输入具体参数_是否能够查询审核信息_正常操作_3440"/>
+</classes>
+</test>
+<test verbose="0" name="零部件BOM信息(#339)">
+<classes>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM__匹配结果操作_6677"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM__匹配结果操作_6673"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_查看BOM__匹配结果操作_6670"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_查看BOM_正常操作_3702"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_查看BOM_BOM树形操作_3701"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_查看BOM_基础信息操作_3700"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_3698"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形新增操作_3697"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形删除操作_3696"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形挂接操作_3695"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形修改操作_3694"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形打开关闭操作_3693"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形查找操作_3692"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_基础信息操作_3691"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_基础信息操作2_3690"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_3689"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_BOM树形删除操作_3688"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_BOM树形修改操作_3687"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_BOM树形查找操作_3686"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_基础信息操作2_3685"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_新增BOM_BOM树形新增操作_3684"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_基础信息操作_3683"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_BOM树形挂接操作_3682"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_修改BOM_BOM树形打开关闭操作_3681"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息功能是否可实现_删除BOM_3680"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息下方功能栏按钮是否可以实现_含异常操作_3679"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_综合检索_3678"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_创建时间检索_3677"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_供货编号检索_3676"/>
+<class name="cn.edu.tju.scs.seql.final_ELV.车型管理_326.零部件BOM信息_339.验证零部件BOM信息查询功能是否可实现_BOM名称检索_3675"/>
+</classes>
+</test>
+
+<listeners>
+<listener class-name="cn.edu.tju.scs.seql.report.ExcelReportGenerator" />
+</listeners>
+
+</suite> <!-- Default suite -->
